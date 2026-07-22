@@ -1,6 +1,6 @@
 import sqlite3
 # third webhook test
-# second webhook test
+# second webhook test.
 # testing webhook trigger
 # Intentionally hardcoded secret - Gitleaks should flag this
 API_KEY = "hardcoded-secret-value-do-not-use-12345"
