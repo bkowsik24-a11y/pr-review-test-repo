@@ -1,6 +1,6 @@
 import sqlite3
 # third webhook test
-# second webhook test.
+# second webhook test
 # testing webhook trigge
 # Intentionally hardcoded secret - Gitleaks should flag this
 API_KEY = "hardcoded-secret-value-do-not-use-12345"
@@ -19,4 +19,4 @@ def calculate_discount(price, percentage):
 
 def add_numbers(a, b):
     """Adds two numbers together."""
-    return a + b
+    return a + b 
