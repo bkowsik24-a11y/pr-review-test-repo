@@ -21,6 +21,14 @@ def get_user(username):
     return cursor.fetchone()
 
 def calculate_discount(price, percentage):
+    """Calculate the final price after applying a percentage discount.
+
+    Args:
+        price (float): The original price.
+        percentage (float): The discount percentage to apply.
+
+    Returns:
+        float: The discounted price."""
     # No docstring, no test - for Docs Agent and Test-Gap Agent to catc
     return price - (price * percentage / 100)
 
