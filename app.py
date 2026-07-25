@@ -1,5 +1,5 @@
 import sqlite3
-
+# testing live Render deployment
 # Intentionally hardcoded secret - Gitleaks should flag this
 API_KEY = "hardcoded-secret-value-do-not-use-12345"
 
@@ -19,7 +19,7 @@ def get_user(username):
     return cursor.fetchone()
 
 def calculate_discount(price, percentage):
-    # No docstring, no test - for Docs Agent and Test-Gap Agent to catch
+    # No docstring, no test - for Docs Agent and Test-Gap Agent to catc
     return price - (price * percentage / 100)
 
 def add_numbers(a, b):
